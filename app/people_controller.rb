@@ -4,6 +4,7 @@ class PeopleController
   end
 
   def normalize
+    Parser.get_people(params)
   end
 
   private
